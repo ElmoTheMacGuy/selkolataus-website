@@ -14,7 +14,7 @@
     <div class="wrap">
       <a class="back" href="index.html">← Selko Lataus</a>
       <h1>Tietosuojaseloste</h1>
-      <p class="legal-updated">Viimeksi päivitetty: 17.08.2026</p>
+      <p class="legal-updated">Viimeksi päivitetty: 16.10.2026</p>
     </div>
   </div>
 
@@ -37,11 +37,24 @@
       <p>Sovellus ei edellytä käyttäjätiliä, eikä kysy nimeäsi, sähköpostiasi tai puhelinnumeroasi.</p>
       <ul>
         <li>
-          <strong>Sijainti (valinnainen):</strong> "Lähin Vapaa" -ominaisuus käyttää laitteesi
-          sijaintia löytääkseen lähimmän vapaan laturin ajosuuntasi perusteella. Sijainti
-          käsitellään kokonaan laitteellasi — sitä ei lähetetä eikä tallenneta Selkon
-          palvelimille. Käyttöoikeus pyydetään vasta, kun käytät ominaisuutta ensimmäistä kertaa,
-          ja voit perua sen milloin tahansa laitteesi asetuksista.
+          <strong>Sijainti (valinnainen):</strong> sovellus käyttää laitteesi sijaintia näyttääkseen
+          sijaintisi kartalla, reitin laskemiseen matkasuunnittelijassa sekä "Lähin Vapaa"
+          -ominaisuudessa. Sijainti käsitellään laitteellasi, ja reitit lasketaan Applen
+          karttapalvelulla (Apple Maps / MapKit) — sijaintia ei lähetetä eikä tallenneta Selkon
+          palvelimille. Voit perua käyttöoikeuden milloin tahansa laitteesi asetuksista; sovellus
+          toimii myös ilman sitä.
+        </li>
+        <li>
+          <strong>Haku:</strong> kun haet osoitetta tai paikkaa, hakusana lähetetään Applen
+          karttapalveluun hakutulosten saamiseksi. Latausasemien haku tehdään laitteellasi.
+        </li>
+        <li>
+          <strong>Anonyymit käyttötilastot:</strong> keräämme anonyymejä tilastoja siitä, mitä
+          sovelluksen näkymiä ja ominaisuuksia käytetään (esim. "tilastot-näkymä avattu"), jotta
+          tiedämme, mitä kehittää. Tilastot on sidottu satunnaiseen, asennuskohtaiseen tunnisteeseen,
+          joka ei ole yhdistettävissä sinuun henkilönä. Emme kerää sijaintia, nimeä tai muita
+          henkilötietoja tilastoihin, emmekä käytä niitä mainontaan tai seurantaan. Palvelun
+          tuottaa TelemetryDeck (EU, Saksa).
         </li>
         <li>
           <strong>Suosikit ja hälytykset:</strong> tallennetaan ainoastaan laitteellesi. Näitä
@@ -80,8 +93,12 @@
       <h2>5. Kolmannet osapuolet</h2>
       <p>Käsittelyssä käytämme seuraavia kolmansia osapuolia palvelun tuottamiseksi:</p>
       <ul>
-        <li><strong>Apple</strong> — maksut (App Store / StoreKit) ja sovelluksen jakelu.</li>
+        <li>
+          <strong>Apple</strong> — maksut (App Store / StoreKit), sovelluksen jakelu sekä kartta,
+          haku ja reititys (Apple Maps / MapKit).
+        </li>
         <li><strong>RevenueCat</strong> — tilauksen voimassaolon tarkistus.</li>
+        <li><strong>TelemetryDeck</strong> — anonyymit käyttötilastot (EU).</li>
         <li>
           <strong>Palvelininfrastruktuuri:</strong> taustapalvelimemme sijaitsee Suomessa
           (Helsinki), joten dataa ei siirretä EU/ETA-alueen ulkopuolelle tämän osalta.
@@ -120,7 +137,7 @@
 
   <footer>
     <div class="wrap">
-      <span>© 2026 Selko Lataus</span>
+      <span>© 2026 SelkoAuto Oy · Selko Lataus</span>
       <nav>
         <a href="index.html">Etusivu</a>
         <a href="mailto:tuki@selkolataus.com">Ota yhteyttä</a>
