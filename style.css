@@ -112,6 +112,20 @@ img {
   background: var(--highlight);
 }
 
+.appstore-badge {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 9px;
+}
+.appstore-badge img {
+  height: 48px;
+  width: auto; /* Apple's badge is 143x40 -- keep its proportions */
+}
+.appstore-badge:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
 .badge-note {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
